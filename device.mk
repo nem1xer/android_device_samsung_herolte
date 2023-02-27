@@ -25,10 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbauthtzcommon_shim
 
-# Livedisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.universal8890
-
 # Thermal config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json

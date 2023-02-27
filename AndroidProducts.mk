@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_herolte.mk
+    $(LOCAL_DIR)/arrow_herolte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_herolte-user \
-    lineage_herolte-userdebug \
-    lineage_herolte-eng
+    arrow_herolte-user \
+    arrow_herolte-userdebug \
+    arrow_herolte-eng
